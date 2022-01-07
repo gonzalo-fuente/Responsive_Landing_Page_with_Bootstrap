@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gymify - The online Gym</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark py-4" style="background-color: #81b29a;">
+    <div class="container-xxl">
+      <!-- navbar brand -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-light display-6">
+          <i class="bi bi-battery-charging"></i>
+          Gymify - The online Gym
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Get in Touch</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-outline-light" href="#pricing">I'm in</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2">We Rise</div>
+            <div class="display-5 text-muted">by Lifting Others</div>
+          </h1>
+          <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dignissimos?</p>
+          <a href="#pricing" class="btn btn-secondary btn-lg">Make me a member</a>
+        </div>
+        <div class="col-md-5 text-center d-none d-md-block">
+          <img src="./img/gym.jpg" class="img-fluid" alt="gym picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing plans -->
+  <section id="pricing" class="mt-5" style="background-color: #f4f1de;">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Pricing Plans</h2>
+        <p class="lead text-muted">Oh my Quad...</p>
+      </div>
+
+      <div class="row my-5 g-5 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">3 Month Membership</h4>
+              <p class="display-5 my-4 text-primary fw-bold">$79.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                I'm in
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-primary border-2">
+            <div class="card-header text-center text-primary">Most Popular</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Full Year Membership</h4>
+              <p class="lead card-subtitle">Full Access</p>
+              <p class="display-4 my-4 text-primary fw-bold">$149.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                I'm in
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">6 Month Membership</h4>
+              <p class="display-5 my-4 text-primary fw-bold">$299.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                I'm in
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- about us -->
+  <section id="about">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Why an online Gym?</h2>
+        <p class="lead text-muted">Four reasons to train yourself online...</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4 text-center">
+          <img src="./img/gym phrase.png" class="img-fluid" alt="gym phrase">
+        </div>
+        <div class="col-lg-6">
+          
+          <!-- accordion -->
+          <div class="accordion" id="reasons">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reason-1" aria-expanded="true" aria-controls="reason-1">
+                  Reason 1
+                </button>
+              </h2>
+              <div id="reason-1" class="accordion-collapse collapse" aria-labelledby="heading-1" data-bs-parent="#reasons">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reason-2" aria-expanded="false" aria-controls="reason-2">
+                  Reason 2
+                </button>
+              </h2>
+              <div id="reason-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#reasons">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reason-3" aria-expanded="false" aria-controls="reason-1">
+                  Reason 3
+                </button>
+              </h2>
+              <div id="reason-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#reasons">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#reason-4" aria-expanded="false" aria-controls="reason-4">
+                  Reason 4
+                </button>
+              </h2>
+              <div id="reason-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#reasons">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews list -->
+  <section id="reviews" style="background-color: #f4f1de;">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Reviews</h2>
+        <p class="lead">What our members say about our training...</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star text-altdark"></i>
+              </div>
+              <h5 class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+              <small>Review by Member
+              </small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-half text-altdark"></i>
+                <i class="bi bi-star text-altdark"></i>
+              </div>
+              <h5 class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+              <small>Review by Member
+              </small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb-2">
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-half text-altdark"></i>
+              </div>
+              <h5 class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
+              <small>Review by Member
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <section id="contact">
+    <div class="container-lg">
+      
+      <div class="text-center">
+        <h2>Get in Touch</h2>
+        <p class="lead">Have a Question? Make a question...</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          
+          <form>
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="Your email..." />
+            </div>
+            <label for="name" class="form-label">Name:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" id="name" class="form-control" placeholder="Your name..." />
+            </div>
+            <label for="subject" class="form-label">Question subject?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="payment">Payment method query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your query...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get updates / modal trigger -->
+  <section style="background-color: #f4f1de;">
+    <div class="container">
+      <div class="text-center">
+        <h2>Stay in Touch</h2>
+        <p class="lead">Get the latest updates...</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed alias repellat rem! Magni qui impedit modi amet! Laboriosam, odit?</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Register for Updates
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal itself -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas exercitationem quia doloremque! Excepturi quos cupiditate officia fugit, voluptatum inventore accusamus!</p>
+          <label for="modal-email" class="form-label">Your email address:</label>
+          <input type="text" class="form-control" id="modal-email" placeholder="Your email...">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
